@@ -1,0 +1,1 @@
+docker run -v "$env:docroot\:/app/public/doc" -p 80:80 -d note
