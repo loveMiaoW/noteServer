@@ -4,7 +4,7 @@
 >
 > —— 《人月神话》
 
-这里是<span style="font-size:35px;">***</span>的笔记本😀，左侧（移动端在左上角）是我的笔记，持续更新...
+这里是<span style="font-size:35px;">MrLiu</span>的笔记本😀，左侧（移动端在左上角）是我的笔记，持续更新...
 
 <span style="font-size:50px;">我,</span>某双非本科、写代码专业在读，热爱技术，喜欢思考，是一只快乐、上进的调包侠。
 
@@ -22,27 +22,8 @@
 
 
 
-
-此外，你还可以访问我的：
-
-|            |
-| ---------- |
-| [主站]()   |
-| [知乎]()   |
-| [GitHub]() |
-| [CSDN]()   |
-
-<br/>
-
 > 该应用基于 [Docute](https://docute.org/)，使用 Node.js --> express 提供服务。
 >
-> 该应用涉及的图片等资源文件的储存均基于**github的 oss 对象储存服务**。
->
-> 项目链接:https://github.com/Drincann/noteServer.git 原版
->
-> 
-
-#### 如果感觉我的文章对你有所帮助，可以考虑请我喝瓶矿泉水吗？
 
 
 

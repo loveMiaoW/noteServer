@@ -40,18 +40,8 @@ $.ajax({
     extend(api) {
       api.onContentUpdated(() => {
         // 刷新 github-calendar
-        GitHubCalendar(".calendar", "Drincann", { tooltips: true, responsive: true });
 
         // 刷新 valine
-        $(document).find('.leancloud_visitors').prop('id', location.href);
-        new Valine({
-          el: '#vcomments',
-          appId: 'ik2aTAKBgdcRDvpwj25iFfk4-gzGzoHsz',
-          appKey: 'gz4c5n4iXKA08zMuXWD7AnnY',
-          path: window.location.href,
-          placeholder: '高厉害最近有点疑惑',
-          visitor: true
-        });
 
         // parse mermaid
         mermaid.init(undefined, '.mermaid');
@@ -99,22 +89,13 @@ $.ajax({
     highlight: ['javascript', 'java', 'cpp', 'python', 'json', 'bash', 'php', 'html', 'css', 'sql', 'typescript', 'go'],
     target: '#content',
     darkThemeToggler: true,
-    title: '高厉害的笔记本',
+    title: 'LOVEMIAOW的笔记本',
     nav: [{
       title: '首页',
       link: '/'
-    }, {
-      title: '知乎',
-      link: 'https://www.zhihu.com/people/gao-jun-kang'
-    }, {
-      title: 'GitHub',
-      link: 'https://github.com/Drincann'
-    }, {
-      title: 'Profile',
-      link: 'https://profile-summary-for-github.com/user/drincann'
-    }, {
-      title: 'CSDN',
-      link: 'https://blog.csdn.net/qq_16181837'
+    },{
+      title: 'github',
+      link: 'https://github.com/loveMiaoW'
     }],
     plugins: [
       // searchPlugin,

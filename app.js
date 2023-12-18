@@ -7,4 +7,4 @@ router.post('/getSidebar', require('./route/getSidebar'));
 router.use(express.static(path.join(__dirname, 'public')));
 router.use(require('./route/notfound'));
 
-router.listen(80);
+router.listen(8090);
